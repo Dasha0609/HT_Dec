@@ -13,7 +13,7 @@ for (int j = 0; j < numbers.GetLength(0); j++)
     double sum = 0;
     for (int i = 0; i < numbers.GetLength(1); i++)
     {
-              sum = sum + numbers[i,j];
+              sum += numbers[i,j];
     }
     Console.Write($"{ sum / numbers.GetLength(0)}; ");
     //Console.WriteLine(sum);
